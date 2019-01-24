@@ -1,5 +1,5 @@
 ---
-title: JavaScript Decision Tree
+title: The JavaScript Decision Tree
 date: '2019-01-09T15:28:03.284Z'
 ---
 
@@ -23,14 +23,14 @@ The above-mentioned list is not exhaustive but I think gives us an idea as to wh
 
 A sample of choices available:
 
- - **Build Tool:** Webpack, Parcel, Browserify  
- - **Testing Framework:** Jest, Mocha, Ava  
- - **Assertion Framework:** Chai, Jest, Jasmine  
- - **Frontend Framework:** Vue, React, Angular, Knockout, Backbone, Ember, Vanilla JS   
- - **Styling Approach:**  CSS-in-JS, CSS Modules, SASS, LESS, Vanilla CSS  
- - **Utility Libraries:**  Immer, Lodash, ImmutableJS, RamdaJS  
- - **State Modeling:**  xstate, Microstates, Redux, MobX  
- - **Async Helpers:**  RxJS, BaconJS
+ - **Build Tool:** Webpack, Parcel, Browserify...  
+ - **Testing Framework:** Jest, Mocha, Ava..  
+ - **Assertion Framework:** Chai, Jest, Jasmine..  
+ - **Frontend Framework:** Vue, React, Angular, Knockout, Backbone, Ember, Vanilla JS..   
+ - **Styling Approach:**  CSS-in-JS, CSS Modules, SASS, LESS, Vanilla CSS..  
+ - **Utility Libraries:**  Immer, Lodash, ImmutableJS, RamdaJS..  
+ - **State Modeling:**  xstate, Microstates, Redux, MobX..  
+ - **Async Helpers:**  RxJS, BaconJS..
 
  ### Picture worth a thousand words
 
@@ -48,9 +48,9 @@ So what? Having these many choices should be a good thing right? Unfortunately w
 
 ## Possible Solutions
 
-Obviously the solutions I can provide can only help with the problem but cannot elminate it,    since no one can control the community as whole and nor should they. I strongly believe that the reason for such a large adoption of JS is because of its community and open source efforts put in by some really smart folks! So I am not recommending to stop innovating and coming up with new ways to do things, I am just trying to ease the pain that can come from having so many choices as a developer who is trying to solve some business problem!.
+Obviously the solutions I can provide can only help with the problem but cannot elminate it,    since no one can control the community as whole and nor should they. I strongly believe that the reason for such a large adoption of JS is because of its community and open source efforts put in by some really smart folks! So I am not recommending to stop innovating no, I am just trying to ease the pain that can come from having so many choices as a developer who is trying to solve some business problem!.
 
-In order to be effective certain steps need to be taken at both People Level and Technical Level:
+Solution needs to handle at both People Level and Technical Level:
 
 ### Technical Level
 

@@ -305,12 +305,20 @@ The essence of all this is that when creating any component we cannot predict th
 
 And the `Hooks` api is just another step in that direction which gives us lot more primitives to compose with and my mental models around it have not been developed yet to a point to create such effective compositions, probably after I use it a while I will come up with something or the community will (probably the latter!)
 
-Codesandbox for the full working implementation :
+All of this is not my own thinking its something derived from talks/blogs and other materials shared by the awesome folks in the community. So here are some references:
+
+[Ryan's Talk on Compound Components](https://www.youtube.com/watch?v=hEGg-3pIHlE)  
+[Kent C Dodd's talk title 'Simply React'](https://www.youtube.com/watch?v=AiJ8tRRH0f8)  
+[Fun with React Hooks](https://www.youtube.com/watch?v=1jWS7cCuUXw&t=1426s)
+
+
+Codesandbox for the full working implementation of the DropDown component:
 
 
 <iframe src="https://codesandbox.io/embed/github/varenya/select/tree/master/?fontsize=14" title="select" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 
-Anyway I hope this was helpful, thanks for reading!
+
+I hope this was helpful, thanks for reading!
 
 

@@ -227,8 +227,6 @@ function Option(props) {
   return <option value={value} {...rest}>{label}</option>
 }
 
-// Usage
-
 ```
 I know that the above implementation won't work yet, but this is the API I would be aiming for. Right out of the box this solves most problems i.e. if you want to disable a particular option the consumer would just have to pass a disabled flag to the component and thats it! and if you think about it it's the `Option` component which should be aware of that piece of information not the parent `DropDown` component. And it doesn't set any constraints on the consumer as to how the options structure needs to be it can be anything!
 

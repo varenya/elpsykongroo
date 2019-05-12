@@ -137,7 +137,7 @@ GoodButton.propTypes = {
   buttonType: PropTypes.oneOf(["primary", "secondary"])
 };
 ```
-See? Just changing it to a simple enum removed that invalid state altogether (JavaScript doesn't have enums but by using and prop-types we can emulate it)
+See? Just changing it to a simple enum removed that invalid state altogether (JavaScript doesn't have enums but by using string and prop-types we can emulate it)
 
 Lets take it a step forward using the above component :
 
@@ -236,7 +236,7 @@ Also if you want to add search based on some term we don't need to do anything c
 
 <DropDown>
    {options
-      .filter(option === option.label.indexOf(searchTerm))
+      .filter(option === option.label.indexOf(searchTerm)!== -1)
       .map(option => <Option {...option}/>)}
 </DropDown>
 

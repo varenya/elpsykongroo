@@ -21,15 +21,27 @@ Do you get my drift? Just replace **`put`** with **`compose`** and you will get 
 
 So let's try and define the term in the context of programming. So the general idea is basically taking one type of thing and combine them to create other types of things.
 
-In programming lanugages, we have primitives like integers, strings, functions, objects and we combine them to produce software instead of letters, words, sentences.
+In programming languages, we have primitives like integers, strings, functions, objects and we combine them to produce software instead of letters, words, sentences.
 
-So what is the corollary for grammar or rules in case of programming languages? well at the most basic level its nothing but `syntax` which compilers enforce unless you follow the `syntax` you will not get working software similar to how if we don't follow grammar you won't get a proper book.
+So what is the corollary for grammar or rules in case of programming languages? Well at the most basic level its nothing but `syntax` which compilers enforce, unless you follow the `syntax` you will not get working software. 
+Similar to how if we don't follow grammar you won't get a proper sentence.
 
-Okay fair enough but how's it important? Well because as humans there is only so much information one can keep in their heads so we need come up with different ways to logically group things and combine them so that we can build stuff more reliably.
+Okay, fair enough but how's it important? Well because as humans there is only so much information one can keep in their heads so we need come up with different ways to logically group things and combine them so that we can build stuff more reliably.
 
-So are there rules for composing software? I mentioned `syntax` earlier but that's barely enough to guide us to create compositional software. We don't have rules no, but we do have best practices/design patterns (which compilers can't enforce) which have been discovered by folks who have been doing this for a lot longer than I have, but they are more of guidelines instead of hardbound rules and can be misused a lot of times and requires experience/intuition to know which `pattern` or `best practice` to use in which context otherwise can lead to bad results.
+So are there rules for composing software? I mentioned `syntax` earlier but that's barely enough to guide us to create compositional software. 
 
-Examples of design patterns:
+
+There are no hardbound rules in software composition. The closest thing we have to rules are design patterns. 
+
+Programmers can misuse design patterns since:
+
+1. They are intuition driven
+2. Compilers can't enforce it 
+3. Proper use requires some experience 
+4. Can lead to wrong abstractions which are hard to adapt.
+
+
+Some examples of design patterns:
 
 - Factory Pattern
 - Facade Pattern
@@ -37,13 +49,19 @@ Examples of design patterns:
 - Dependency Injection
 - ...
 
-Turns out mathematicians are really great at figuring out patterns and laws out of primitives and there is awesome amount research surrounding it, which are proved laws which can be enforced by a compiler! Alas, that's a bigger topic (another blog post maybe?) and we need to move on to `React`!
+Turns out logicians/mathematicians have researched this area and come up with laws. It's a topic which deserves more attention (another blog post maybe?) and we need to move on to `React`.
 
 ##Composition in React
 
-I think that the best programmers of today are really good at composition i.e. they are able to figure out what the right primitives are around a domain and come up with really good ways to compose them to create readable/maintainable software, this I have realized is an acquired skill. `React` is no exception this!
+The best programmers are good at composition. 
+The process of creating effective composition's looks something like this:
 
-Before we talk about composition in React lets list out the primitives in React:
+1. Figure out the basic primitives in the problem domain. 
+2. Use language primitives and design patterns to combine them to solve a given problem.
+3. Based on usage heuristics and changing requirements `iterate` on the abstractions. 
+
+
+Let's list out the primitives in React:
 
 - Perhaps the most important one and the most basic unit: `Component`
 - Context
@@ -52,7 +70,7 @@ Before we talk about composition in React lets list out the primitives in React:
 - Suspense
 - Refs
 - Hooks!
-- Since we write React in good old JS you have at your disposal all that the language provides i.e. loops, arrays, stacks, generators, etc.
+- Since we write React in good old JS we have at your disposal all that the language provides i.e. loops, arrays, stacks, generators, etc.
 
 So as a `React` dev our job is basically to use the above in the best way possible to create an app!
 
@@ -153,9 +171,10 @@ Let's take it a step forward using the above component :
     const { buttonType, ...rest } = props;
     return <GoodButton buttonType="secondary" {...rest} />;
  }
+
 ```
 
-See what I did there used props to create new components! So what is so great about this? It hides away the implementation details of how `PrimaryButton` is created and the consumers don't have to worry about which props to pass to make it a `PrimaryButton` in the first place. 
+See what I did there? I used props to create new components! So what is so great about this? It hides away the implementation details of how `PrimaryButton` is created and the consumers don't have to worry about which props to pass to make it a `PrimaryButton` in the first place. 
 
 Say tomorrow your designer comes in and says that the `PrimaryButton` needs to have an italic text you can just go ahead add modify the code like this:
 
@@ -170,8 +189,7 @@ Thats it, the conumsers don't have to change anything!
 
 Here's the codesanbox link with the full code:
 
-{% codesandbox w73y3kq93l %}
-
+https://codesandbox.io/s/w73y3kq93l
 
 Let's look at another nontrivial example and with some other primitives.
 
@@ -315,9 +333,7 @@ All of this is not my own thinking its something derived from talks/blogs and ot
 
 Codesandbox for the full working implementation of the DropDown component:
 
-{% codesandbox 4z4l8r8z97 %}
-
+<iframe src="https://codesandbox.io/embed/4z4l8r8z97?fontsize=14" title="dropdown" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 I hope this was helpful, thanks for reading!
-
 

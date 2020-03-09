@@ -50,3 +50,5 @@ So lets see what the `constraints` are in the case of `Tangram` :
 2. You only have a few shapes to use.
 
 Now before we dive into the heuristics for `tangram` API design lets understand what heuristic means in the first place.
+
+In short it means : "simple strategies to form judgements "

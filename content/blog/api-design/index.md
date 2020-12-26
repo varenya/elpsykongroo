@@ -35,13 +35,15 @@ It’s a puzzle game where in you have 7 pieces of different shapes. Like this:
 
 ![https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tangram_set_00.jpg/800px-Tangram_set_00.jpg?1563122396790](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tangram_set_00.jpg/800px-Tangram_set_00.jpg?1563122396790)
 
-<figcaption>Source: Wikipedia</figcaption>
+Source: Wikipedia
+
 
 And aim is to create other shapes from these 7 shapes. Like this:
 
 ![https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Two_monks_tangram_paradox.svg/640px-Two_monks_tangram_paradox.svg.png?1563122758866](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Two_monks_tangram_paradox.svg/640px-Two_monks_tangram_paradox.svg.png?1563122758866)
 
-<figcaption>Source: Wikipedia</figcaption>
+Source: Wikipedia
+
 
 According to wikipedia there have been 6500 puzzle’s created till date, from just the 7 pieces!
 
@@ -80,7 +82,6 @@ The feedback loop likes something this:
 
 ![loop.png](loop.png)
 
-<figcaption>The feedback loop</figcaption>
 
 Well its nothing fancy now, Is it? But not everything is that simple! Its pretty difficult to execute it in real case scenario.
 

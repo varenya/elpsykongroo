@@ -4,7 +4,6 @@ date: '2020-12-26T21:00:03.284Z'
 tags: javascript
 published: true
 ---
-# Core principles of API Design - Part 1
 
 In this post I am going to try and list out what goes into making a good API.
 
@@ -36,13 +35,13 @@ It’s a puzzle game where in you have 7 pieces of different shapes. Like this:
 
 ![https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tangram_set_00.jpg/800px-Tangram_set_00.jpg?1563122396790](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Tangram_set_00.jpg/800px-Tangram_set_00.jpg?1563122396790)
 
-Source: Wikipedia
+<figcaption>Source: Wikipedia</figcaption>
 
 And aim is to create other shapes from these 7 shapes. Like this:
 
 ![https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Two_monks_tangram_paradox.svg/640px-Two_monks_tangram_paradox.svg.png?1563122758866](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Two_monks_tangram_paradox.svg/640px-Two_monks_tangram_paradox.svg.png?1563122758866)
 
-Source: Wikipedia
+<figcaption>Source: Wikipedia</figcaption>
 
 According to wikipedia there have been 6500 puzzle’s created till date, from just the 7 pieces!
 
@@ -81,7 +80,7 @@ The feedback loop likes something this:
 
 ![loop.png](loop.png)
 
-The feedback loop
+<figcaption>The feedback loop</figcaption>
 
 Well its nothing fancy now, Is it? But not everything is that simple! Its pretty difficult to execute it in real case scenario.
 
@@ -224,7 +223,7 @@ The consumers used the API to pass extra parameters without having to break the 
 
 I hope reader can see how both cases contrast each other, and this is just with one function 😀.
 
-Psst, in the above scenario I used a heuristic again to make the API better:  ***Data is usually cheaper to change than code.***
+> Psst, in the above scenario I used a heuristic again to make the API better: ***Data is usually cheaper to change than code.***
 
 ## Conclusion
 

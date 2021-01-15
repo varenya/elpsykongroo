@@ -188,7 +188,7 @@ Well the answer is :
 
 If it's a small utility function that does one specific thing why bother with an object like input? 
 
-Understanding t**rade offs** is probably the most important part of the API design. 
+Understanding **trade offs** is probably the most important part of the API design. 
 
 Let's look at the trade off for the example we just saw:
 

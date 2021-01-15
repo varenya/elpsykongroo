@@ -122,11 +122,11 @@ Here I am building an API for shopping cart specifically the function to get tot
 ```jsx
 /* 
 	 Takes one argument called items where each item might look something like this:
-    {
+    [{
 			name: 'Soap',
 			quantity: 2,
 			price : 20
-    }
+    }]
 
 Lets call this V1
    

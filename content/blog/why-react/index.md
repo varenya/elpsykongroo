@@ -21,7 +21,7 @@ All these made things easier but not ***better.*** We were solving the same prob
 
 So how did React bring in the love? By Rethinking the best practices :
 
-[https://www.youtube.com/watch?v=x7cQ3mrcKaY](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
+![https://www.youtube.com/watch?v=x7cQ3mrcKaY](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
 
 Watch this talk and witness history!
 

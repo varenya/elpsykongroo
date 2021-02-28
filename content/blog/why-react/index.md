@@ -4,7 +4,6 @@ date: '2021-02-28T20:00:03.284Z'
 tags: javascript,react,ui-dev,functional programming
 published: true
 ---
-# Why React ?
 
 React has been there long enough that there are people now using it who don't have context over what it brought to the table.
 

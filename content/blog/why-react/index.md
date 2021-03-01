@@ -23,8 +23,6 @@ So how did React bring in the love? By Rethinking the best practices :
 
 [![Intro to React](https://img.youtube.com/vi/x7cQ3mrcKaY/0.jpg)](https://www.youtube.com/watch?v=x7cQ3mrcKaY "")
 
-![https://www.youtube.com/watch?v=x7cQ3mrcKaY](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
-
 Watch this talk and witness history!
 
 Now I will go through my take on things: 

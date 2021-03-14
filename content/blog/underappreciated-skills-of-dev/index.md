@@ -13,7 +13,7 @@ Lets go over them one by one:
 
 Well, this seems obvious, doesn't it?
 
-I don't mean empathy in the sense of caring about your team-mates (you should) but in the context of code. As a beginner, I used to have a knee-jerk reaction when exposed to a new codebase. I would judge it and think something along these lines:
+As a beginner, I used to have a knee-jerk reaction when exposed to a new codebase. I would judge it and think something along these lines:
 
 - Why did they use this? ugh
 - Why use this framework here?

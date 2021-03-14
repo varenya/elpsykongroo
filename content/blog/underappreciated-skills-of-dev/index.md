@@ -129,6 +129,8 @@ So anything in your codebase that you are able to read and understand quickly. W
 
 > Boring is good.
 
+> “Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. - Edser W. Dijkstra”
+
 And whenever ***simplicity*** is mentioned in software I try and include this talk from **Rich Hickey**:
 
 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
@@ -138,6 +140,8 @@ And whenever ***simplicity*** is mentioned in software I try and include this ta
 This again I learned from **Rich Hickey** in the above talk.  There was a Twitter thread started by Mattias Peter :
 
 [https://twitter.com/mpjme/status/855691565460848640](https://twitter.com/mpjme/status/855691565460848640)
+
+https://twitter.com/mpjme/status/855691565460848640
 
 I replied with this: 
 

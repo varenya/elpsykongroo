@@ -74,7 +74,7 @@ class User {
 }
 ```
 
-Both do similar goals with different trade-offs. The initial developer might prefer either one of the above. We need to keep the big picture in mind and adhere to the style.
+Both do similar goals with different trade-offs. The initial/lead developer might prefer either one of the above. We need to keep the big picture in mind and adhere to the style.
 
 The difference in readability is massive if you don't.
 
@@ -84,9 +84,9 @@ tldr:
 
 ## Understand what the code does instead of what it looks like
 
-A lot of the time while reading the code. The mental model of what the execution will be like will be very different from how the code reads. 
+A lot of the time in programming what you see is not what you get.  
 
-A classic example would be in JS:
+A good example of this would be
 
 ```jsx
 function User(username) {
@@ -96,7 +96,7 @@ function User(username) {
 
 If you are not familiar with JS one would assume this is a function declaration. When in reality this is how we used to define the `class` structure before ES6 syntax came along.
 
-It looks like a function but actually is a constructor.  This kind of misdirection can come at the language level also at the implementation level. One must be adept at understanding both.
+It looks like a function but actually is a constructor.  This kind of misdirection can come at the language level and also at the implementation level. One must be adept at understanding both.
 
 tldr: 
 
@@ -125,11 +125,10 @@ Ans:
 
 ![https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif](https://media.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif)
 
-So anything in your codebase that you are able to read and understand quickly. Which just works? - It's boring, but it's the coolest thing you have just witnessed.
+So anything in your codebase that you are able to read, understand quickly and it just works? - It's boring, but it's the coolest thing you have just witnessed.
 
-> Boring is good.
 
-> “Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. - Edser W. Dijkstra”
+> “Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. - Edsger W. Dijkstra”
 
 And whenever ***simplicity*** is mentioned in software I try and include this talk from **Rich Hickey**:
 

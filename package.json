@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Varenya <varen90@gmail.com>",
   "dependencies": {
+    "@weknow/gatsby-remark-twitter": "^0.2.3",
     "gatsby": "^2.3.1",
     "gatsby-image": "^2.0.22",
     "gatsby-plugin-feed": "^2.0.8",

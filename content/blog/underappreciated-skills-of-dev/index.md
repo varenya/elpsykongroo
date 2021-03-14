@@ -2,7 +2,7 @@
 title: Under-Appreciated Skills of a Software Developer 
 date: '2021-03-14T20:45:03.284Z'
 tags: javascript,software-dev,api
-published: true
+published: false
 ---
 
 This time I wanted to talk about certain skills I have noticed within myself and fellow devs that I think are crucial yet very much underappreciated. 

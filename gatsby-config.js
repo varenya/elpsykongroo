@@ -9,6 +9,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -19,7 +20,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: ['@weknow/gatsby-remark-twitter'],
+        plugins: [`gatsby-remark-embedder`],
       },
     },
     {

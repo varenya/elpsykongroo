@@ -134,21 +134,21 @@ And whenever ***simplicity*** is mentioned in software I try and include this ta
 
 [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/)
 
-## Care more about the construct than the artefact
+## Care more about the artifact than the construct
 
-This again I learned from **Rich Hickey** in the above talk.  There was a Twitter thread started by Mattias Peter :
+This again I learned from **Rich Hickey** in the above talk.  There was a Twitter thread started by Mattias Peter:
 
-[https://twitter.com/mpjme/status/855691565460848640](https://twitter.com/mpjme/status/855691565460848640)
-
-https://twitter.com/mpjme/status/855691565460848640
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What do you think are critical traits in a programmer? NOT to be super 10x or anything - just to feel good and function well professionally.</p>&mdash; mpj 💛 (@mpjme) <a href="https://twitter.com/mpjme/status/855691565460848640?ref_src=twsrc%5Etfw">April 22, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I replied with this: 
 
-[https://twitter.com/varenya90/status/855741548738338816?s=20](https://twitter.com/varenya90/status/855741548738338816?s=20)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who cares more about the artifact than the construct.</p>&mdash; Varenya (@varenya90) <a href="https://twitter.com/varenya90/status/855741548738338816?ref_src=twsrc%5Etfw">April 22, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 He chose my reply, to do a full video which I think does a better job than I ever could:
 
-[https://www.youtube.com/watch?v=mZNXkQxu9Rw](https://www.youtube.com/watch?v=mZNXkQxu9Rw)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZNXkQxu9Rw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Thanks for reading! I hope there are more folks who can relate to these. 
 

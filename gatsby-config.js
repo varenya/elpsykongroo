@@ -22,17 +22,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        googleAnalytics: {
-          trackingId: 'UA-136969742-1', // leave empty if you want to disable the tracker
-          cookieName: 'gatsby-gdpr-google-analytics', // default
-          anonymize: true, // default
-          allowAdFeatures: false, // default
-        },
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,

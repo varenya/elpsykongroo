@@ -6,25 +6,27 @@
   "author": "Varenya <varen90@gmail.com>",
   "dependencies": {
     "@weknow/gatsby-remark-twitter": "^0.2.3",
-    "gatsby": "^2.3.1",
-    "gatsby-image": "^2.0.22",
+    "gatsby": "^3.0.1",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-gdpr-cookies": "^1.0.12",
     "gatsby-plugin-glamor": "^2.0.7",
     "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-image": "^1.1.0",
     "gatsby-plugin-manifest": "^2.0.5",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.31",
+    "gatsby-plugin-sharp": "^3.0.0",
+    "gatsby-plugin-twitter": "^3.1.0",
     "gatsby-plugin-typography": "^2.2.0",
     "gatsby-remark-copy-linked-files": "^2.0.5",
+    "gatsby-remark-embedder": "^4.1.0",
     "gatsby-remark-images": "^2.0.4",
     "gatsby-remark-prismjs": "^3.2.9",
     "gatsby-remark-responsive-iframe": "^2.0.5",
     "gatsby-remark-smartypants": "^2.0.5",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-remark": "^2.3.12",
-    "gatsby-transformer-sharp": "^2.1.3",
+    "gatsby-transformer-sharp": "^3.0.0",
     "glamor": "^2.20.40",
     "prismjs": "^1.16.0",
     "react": "^16.5.1",
@@ -38,9 +40,8 @@
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.14.2"
+    "eslint": "^7.22.0",
+    "prettier": "2.2.1"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
@@ -60,6 +61,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
+    "serve": "gatsby serve",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }

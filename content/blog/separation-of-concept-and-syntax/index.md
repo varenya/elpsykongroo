@@ -1,6 +1,8 @@
 ---
 title: Separation of concept and code
+tags: webdev,beginners,javascript,reactivity
 date: '2021-04-06T14:00:03.284Z'
+published: false
 ---
 
 This is post is a deep dive into one of the points of my last blog post.
@@ -35,7 +37,7 @@ Lets take a few ***concepts*** to demonstrate what I mean:
 
 ## Asynchronicity
 
-Now within the JS ecosystem there are now multiple ways of achieving concurrency/async:  
+Now within the JS ecosystem, there are now multiple ways of achieving concurrency/async:  
 
 ### Using Callbacks
 
@@ -44,7 +46,7 @@ The code for it looks something like this:
 ```jsx
 /* Example of a piece of code executing after a set time */
 
-/* The first argument being the callback and second being delay in ms */
+/* The first argument is the callback and the second being delay in ms */
 
 setTimeout(() => console.log('done!'), 1000)
 ```
@@ -79,14 +81,13 @@ await delay(1000);
 console.log('hello');
 ```
 
-Same thing as before i.e. same underlying ***concept*** but different ***syntax*** - do you get my drift? 
+The same thing as before i.e. same underlying ***concept*** but different ***syntax*** - do you get my drift? 
 
-To gain deeper understanding of how the Async code is executed in JS, I highly recommend this talk:
-
+To gain a deeper understanding of how the Async code is executed in JS, I highly recommend this talk:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-And this concept of async can be extending to different languages too where the ***syntax*** is drastically different but the ***concept*** is same, some links to async syntax in different languages:
+And this concept of async can be extending to different languages too where the ***syntax*** is drastically different but the ***concept*** is the same, some links to async syntax in different languages:
 
 **using Java:**
 
@@ -102,7 +103,7 @@ And this concept of async can be extending to different languages too where the 
 
 These are just some examples. I hope folks are able to see the parallels between the JS examples and other languages. 
 
-Tldr: 
+TLDR: 
 
 > grokking the underlying concept can help reduce the learning curve by a good margin
 
@@ -110,9 +111,9 @@ Tldr:
 
 This is specific to JS frameworks. 
 
-To understand reactivity usually the best example is excel sheets. How so? 
+To understand reactivity usually, the best example is excel sheets. How so? 
 
-Well, you can add value to a cell (lets call it **A**) and then add a formula based off that cell (lets call it **B)** and show the result in it. Everytime the value of **cell** **A** changes the value of **cell B** changes automatically based on the formula.
+Well, you can add value to a cell (let's call it **A**) and then add a formula based on that cell (let's call it **B)** and show the result in it. Every time the value of **cell** **A** changes the value of **cell B** changes automatically based on the formula.
 
 Why is it important? 
 
@@ -124,16 +125,15 @@ In case of **React** it is achieved using the VDOM and reconciliation algorithm 
 
 ```jsx
 function DisplayCount() {
-		const [count, setCount] = useState(0);
-    return (
-				<div>
-							<h1> Count : {count} <h1>
-							<button onClick={() => setCount(prevCount => prevCount + 1)}>
-								Inc
-							</button>
-				</div>
-    )
-
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <h1> Count : {count} </h1>
+      <button onClick={() => setCount((prevCount) => prevCount + 1)}>
+        Inc
+      </button>
+    </div>
+  );
 }
 /* 
 	Once setCount is called React triggers the reconciliation algorithm 
@@ -143,7 +143,7 @@ function DisplayCount() {
 
 ### VueJS:
 
-In case of **VueJS** it is achieved using property accessor's i.e. getters/setters. When ever a variable is accessed or changed Vue automatically triggers and UI update there by ***reacting*** to the changes.
+In the case of **VueJS** it is achieved using property accessors i.e. getters/setters. Whenever a variable is accessed or changed Vue automatically triggers a UI update thereby ***reacting*** to the changes.
 
 ```jsx
 var vm = new Vue({
@@ -163,8 +163,8 @@ var vm = new Vue({
 /* Usage */
 
 /*
-	So everytime message is updated you see the reversed string in the below. 
-  Basically its reacting to the changes.
+	So every time message is updated you see the reversed string below. 
+  Basically, it's reacting to the changes.
 */ 
 <div id="example">
   <p>Original message: "{{ message }}"</p>
@@ -200,7 +200,7 @@ For more info:
 
 I hope my point is clear the above examples are drastically different in terms of their ***syntax*** but ***conceptually*** achieve similar things.
 
-Some links to talk that have greatly helped me grok these concepts:
+Some links to talk that has greatly helped me grok these concepts:
 
 Talk by **Evan You** creator of **VueJS**:
 
@@ -211,8 +211,7 @@ Talk by **Rich Harris** creator of **Svelte**:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AdNJ3fydeao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-And FYI, there are different trade offs to the different API's/Syntax we just saw that I leave up the reader to go deeper into. I wrote another post in to help understand the different trade offs: 
+And FYI, there are different trade-offs to the different API's/Syntax we just saw that I leave up the reader to go deeper into. I wrote another post to help understand the different trade-offs: 
 
 [https://varenya.dev/api-design/](https://varenya.dev/api-design/)
 

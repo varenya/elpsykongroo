@@ -3,8 +3,6 @@ title: Functional JS
 date: '2022-01-04'
 ---
 
-# Functional JS
-
 There are few functional patterns that have become popular/semi-popular in JS world.
 
 Javascript as a language is extremely malleable to different patterns/preferences and that can be a good thing and a bad thing.
